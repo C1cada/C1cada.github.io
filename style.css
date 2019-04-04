@@ -12,6 +12,7 @@
     line-height: 80px;
     padding-right: 30px;
     padding-left: 30px;
+    font-size: 30px;
     
 }
 #Header{
@@ -28,8 +29,7 @@
 
 }
 #Intro{
-    
-    
+    width: 6.7%;
 }
 .vertical{
     border-left: 6px solid white;
