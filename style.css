@@ -13,14 +13,15 @@
     padding-right: 30px;
     padding-left: 30px;
     font-size: 30px;
-    
+    float: left;
+    width: 6.7%;    
 }
 #Header{
     position: fixed;
     width: 100%;
     height: 80px;
     background-color: #000000;
-
+    
 }
 
 .Text{
@@ -28,12 +29,22 @@
     color: #000000;
 
 }
-#Intro{
-    width: 6.7%;
+#Home{
+   
 }
 .vertical{
-    border-left: 6px solid white;
-    height: 20px;
+    float: left;
+    position: relative;
+    top: 10px;
+/*    border-left: 2px solid white;*/
+    background-image: -webkit-linear-gradient(top, black, white, white, white, black);
+    background-image: -moz-linear-gradient(top, black, white, white, white, black);
+    background-image: -ms-linear-gradient(top, black, white, white, white, black);
+    background-image: -o-linear-gradient(top, black, white, white, white, black);
+    background-image: linear-gradient(top, black, white, white, white, black);
+    height: 60px;
+    width: 2px;
+    
 }
 .horizontal{ 
     position: relative;
