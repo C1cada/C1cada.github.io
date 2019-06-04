@@ -4,21 +4,22 @@
 }
 
 #Body{
-    background-color: #696969;
+    background-color: #eaeaea;
 }
 .button:hover{
-    background-color: #aaaaaa;
+    background-color: #cccccc;
 /*    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 0px 0 rgba(0,0,0,0.19);*/
 }
 .button:active{
+    background-color: #cccccc;
     transform: translateY(4px);
-    box-shadow: 0 5px #666
+    box-shadow: 0 5px #666;
 }
 .button{
-    background-color: #d1d1d1;
-/*    border-radius: 28px;*/
+    background-color: #ffffff;
+    border-radius: 10px;
     padding: 15px 32px; 
-    border: 3px solid #aaaaaa;
+    border: 3px solid #cccccc;
     box-shadow: 0 9px #999;
-/*    transition-duration: 0.4s;*/
+    transition-duration: 0.4s;
 }
