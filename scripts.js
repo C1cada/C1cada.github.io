@@ -1,7 +1,6 @@
 var numClicks = 0
 
-function onClick{
+function onClick(){
 	numClicks += 1
-	number.innterHTML = "Number of clicks: " + numClicks;
-
+	document.getElementById("number").innerHTML = "Number of clicks: " + numClicks;
 }
