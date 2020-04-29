@@ -5,6 +5,9 @@
 #Body{
     background-color: #ffffff;
 }
+#Right{
+    text-align: right;
+}
 .HeaderText{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #ffffff;
