@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Body{
+    background-color: #ffffff;
+}
+#Right{
+    text-align: right;
+}
+.HeaderText{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #ffffff;
+    vertical-align: middle;
+    line-height: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    float: left;
+    width: 6.7%;    
+}
+#Header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+
+}
+
+.Text{
+    position: static;
+    color: #000000;
+
+}
+#Home{
+
+}
+.vertical{
+    float: left;
+    position: relative;
+    top: 10px;
+/*    border-left: 2px solid white;*/
+    background-image: -webkit-linear-gradient(top, black, white, white, white, black);
+    background-image: -moz-linear-gradient(top, black, white, white, white, black);
+    background-image: -ms-linear-gradient(top, black, white, white, white, black);
+    background-image: -o-linear-gradient(top, black, white, white, white, black);
+    background-image: linear-gradient(top, black, white, white, white, black);
+    height: 60px;
+    width: 2px;
+
+}
+.horizontal{ 
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 20px;
+    border: 0;
+    box-shadow: inset 0 18px 12px -12px rgba(0, 0, 0, 1);
+}
